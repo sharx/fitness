@@ -1,5 +1,5 @@
 @extends('layout')
 
 @section('content')
-	Using View
+	View!
 @stop
