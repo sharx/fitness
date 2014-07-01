@@ -54,10 +54,10 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => 'localhost',
-			'database'  => 'forge',
-			'username'  => 'forge',
-			'password'  => '',
+			'host'      => 'ap-cdbr-azure-east-b.cloudapp.net',
+			'database'  => 'cosmed653',
+			'username'  => 'b7418f0cfe465d',
+			'password'  => '6bce1c17',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
