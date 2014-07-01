@@ -1,6 +1,6 @@
 <html>
 	<body>
 		<h1>Laravel Quickstart</h1>
-		@yeild('content')
+		@yield('content')
 	</body>
 </html>
