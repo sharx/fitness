@@ -18,5 +18,5 @@ Route::get('/', function()
 
 Route::get('users',function()
 {  
-    return View::make('users');
+    return View::make('users.blade');
 });
