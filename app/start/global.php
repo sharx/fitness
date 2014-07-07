@@ -64,8 +64,25 @@ App::error(function(Exception $exception, $code)
 
 App::down(function()
 {
-	return Response::make("Be right back!", 503);
+	//return Response::make("Be right back!", 503);
+        return Response::view('maintenance',array(),503);
 });
+
+/*
+ |-------------------------------------------------------------------------
+ |Registering  Application Events(before, after, close, finish, shutdown)
+ |------------------------------------------------------------------------- 
+ |Before or after a Request of App.
+ |
+ */
+App::before(function(){    
+ // before request handle code here  
+});
+
+App::after(function(){
+ // after request handle code here    
+});
+    
 
 /*
 |--------------------------------------------------------------------------

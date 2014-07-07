@@ -18,5 +18,9 @@ Route::get('/', function()
 
 Route::get('users',function()
 {  
-    return View::make('users');
+    $users=DB::select('select * from users');
+    $env=App::environment();
+    $value=Request::server('PATH_INFO');
+    //return $env;
+    return View::make('users')->with('users',$users);
 });

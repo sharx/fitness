@@ -1,5 +1,7 @@
 @extends('layout')
 
 @section('content')
-	Using View!
+	@foreach($users as $user)
+        <p>{{$user->username, '</br>' ,$user->email}}</p>
+        @endforeach
 @stop

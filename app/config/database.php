@@ -53,8 +53,9 @@ return array(
 		),
 
 		'mysql' => array(
-			'driver'    => 'mysql',
-			'host'      => 'ap-cdbr-azure-east-b.cloudapp.net',
+                     'host'      => 'ap-cdbr-azure-east-b.cloudapp.net',
+                     'driver'    => 'mysql',
+			
 			'database'  => 'cosmed653',
 			'username'  => 'b7418f0cfe465d',
 			'password'  => '6bce1c17',
